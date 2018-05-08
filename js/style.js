@@ -6,7 +6,8 @@ $(function () {
     });
 
 
-    /************ Smooth Scroll **********/
+    /************ Smooth Scroll
+                  Resource ==> "https://css-tricks.com/" **********/
     // Select all links with hashes
     $('a[href*="#"]')
         // Remove links that don't actually link to anything
@@ -45,12 +46,15 @@ $(function () {
 
     /*********** Show and Hide menu *******/
     // Show menu
-    $('.show-menu').click(function () {
+    $('.wrapper-menu').click(function () {
         $('.header-nav nav .menu').slideToggle();
+        $(this).toggleClass('open');
     });
+
     // Hide menu when click a link
     $('.header-nav nav .menu li a').click(function () {
         $('.header-nav nav .menu').slideUp();
+        $('.wrapper-menu').removeClass('open');
     });
 
 });
