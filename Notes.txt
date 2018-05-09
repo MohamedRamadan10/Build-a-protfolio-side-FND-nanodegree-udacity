@@ -1,0 +1,6 @@
+I used 
+1- jQuery Library
+2-Nicescroll JS
+3-CSS Flexbox
+4-css tricks site
+5-unsplash site for image (note: please, make sure that internet is connected to load images online)
