@@ -30,6 +30,7 @@
         top: 86px;
         background: #fff;
         width: 100%;
+        padding: 0 !important;
     }
     .header-nav nav .menu li {
         display: block !important;
@@ -93,7 +94,7 @@
     }
 }
 
-@media (min-width: 991px) {
+@media (min-width: 769px) {
     .header-nav nav .menu {
         display: block !important;
     }

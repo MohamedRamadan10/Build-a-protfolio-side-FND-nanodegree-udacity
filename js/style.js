@@ -1,4 +1,15 @@
 $(function () {
+    
+    /****** Change  Navbar's Background ******/
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('nav').addClass('solid');
+        } else {
+            $('nav').removeClass('solid');
+        }
+    });
+    
+    
     /********** Nice Scroll *********/
     $("body").niceScroll({
         cursorcolor: "#129cf3",
